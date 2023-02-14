@@ -1,0 +1,482 @@
+/* Header */
+header {
+    width: 100%;
+    min-height: 275px;
+}
+#home {
+    background:  no-repeat white url(images/cliff_ocean.jpg);
+    background-size: 100% 400px;
+}
+
+#cliffs {
+    background:  no-repeat white url(images/forest_cliff.jpg);
+    background-size: 100% 400px;
+}
+#activities {
+    background:  no-repeat white url(images/runfly.jpg);
+    background-size: 100% 400px;
+}
+#contact {
+    background:  no-repeat white url(images/cliff_rock.jpg);
+    background-size: 100% 400px;
+}
+
+.main-header {
+    background-color:rgba(38, 41, 61, 0.7);
+    width: 700px;
+    margin: 2em auto 0 auto;
+    min-height: 100px;
+    height: 100px;
+}
+.main-header .logo img {
+    width: 100px;
+    height: 100px;
+    margin: 0 2em 0 0;
+    float: left;
+}
+
+/* Navigation */
+.main-menu {
+    padding: 0 !important;
+    padding-left: 3.5rem !important;
+    font-weight: 400;
+}
+.main-menu ul li {
+    list-style-type: none;
+    display: inline-block;
+    float: left;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-left: 1px solid rgba(202, 204, 202, 0.6);
+    line-height: 80px;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.main-menu ul li a {
+    text-decoration: none;
+    color:#fff !important;
+}
+.main-menu ul li a:hover {
+    color: #9ed034;
+}
+.main-menu ul li.active {
+    background: #9ed034;
+    border: none;
+}
+.main-menu ul li.active a {
+    color: #fff !important;
+}
+
+.navbar{
+    height: 100px;
+}
+
+/* Main */
+main {
+    padding: 3em 6em 3em 5.5em;
+    margin: 2em 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+main h1 {
+    font-size: 2.5em;
+    padding-bottom: 0.5em;
+    color: #9ed034;
+}
+main h2 {
+    font-size: 1.7em;
+}
+
+
+/* Partners */
+section {
+    width: 100%;
+    background-color: #4288C3;
+}
+section #partners {  
+    padding: 2em 0 2em 0;
+    margin: 0 auto;
+    text-align: center;
+}
+section #partners .partner {
+    display: inline-block;
+    margin: 0.5em;
+    padding: 1.3em 1.5em;
+    background-color: #fff;
+    border-radius: 50%;
+}
+section #partners .partner img {
+    width: 90px;
+    height: 90px;
+}
+
+
+
+/* Cliffs */
+/*Page4 Styling*/
+#cliffs h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #9ed034;
+    width: 1200px;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-left: 50px;
+}
+
+#cliffs h2{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 1200px;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-left: 50px;
+}
+
+#cliffs p{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 1200px;
+    padding: 2% 5% 1% 5%;
+    margin-left: 50px;
+}
+
+.cliffcliffs {
+    background: none;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.cliffcliffs .site {
+    width: 45%;
+    display: inline-block;
+    margin: 2.5em 1.2em 0 1.2em;
+}
+
+.cliffcliffs .site h3 {
+    background: #852B1B;
+    height: 2em;
+    color: #fff;
+    text-align: center;
+    padding-top: 0.55em;
+    margin: 0;
+}
+
+.cliffcliffs .site img {
+    width: 100%;
+    height: auto;
+}
+
+/*Page 2 Styling*/
+table{
+    width: 1000px;
+    margin: 5% 0 5% 10%;
+}
+#activities h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #9ed034;
+    width: 1200px;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-left: 50px;
+    margin-top: 100px;
+}
+
+#activities p{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 1200px;
+    padding: 2% 5% 1% 5%;
+    margin-left: 50px;
+}
+
+caption{
+    background: #852b1b;
+    height: 40px;
+    color: #fff;
+    font-size: 1,3em;
+    font-weight: bold;
+    caption-side: top;
+    text-align: center;
+    padding-bottom: 35px;
+}
+
+thead{
+    background: #bde1ff;
+    text-align: center;
+}
+
+tbody{
+    background: #eeffe6;
+    text-align: center;
+}
+
+td,th{
+    width: 225px;
+    height: 75px;
+    vertical-align: middle;
+    border: solid 1px #852b1b;
+}
+
+th:first-child{
+    width: 125px;
+    height: 50px;
+    background: #4977d1;
+    color: #fff;
+}
+
+td:first-child{
+    font-weight: bold;
+    background: #bde1ff;
+}
+
+.tdclick{
+    background: #9ed034;
+    color: #fff;
+}
+
+.tdbox:hover:hover{
+    cursor: pointer;
+}
+
+#activities #displaySelected{
+    visibility: hidden;
+    margin: 0 auto;
+    width: 600px;
+    border: 2px solid #9ed034;
+    padding: 0.75em;
+}
+
+#activities #displaySelected #result, #activities #displaySelected #sendinfo{
+    display: block;
+    margin: 0;
+}
+
+#activities #result{
+    min-height: 50px;
+    width: 300px;
+    padding: 0;
+}
+
+#activities #redult h4{
+    margin-bottom: 1em;
+    font-size: 1.15em;
+}
+
+#activities #displaySelected #sendinfo input[type="email"]{
+    width: 200px;
+}
+
+
+/* Contact Page */
+#contact h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #9ed034;
+    width: 1200px;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-left: 50px;
+}
+
+#contact p{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 1200px;
+    padding: 2% 5% 1% 5%;
+    margin-left: 50px;
+}
+
+.contactinfo {
+    margin: 2em 0 1em 0;
+}
+
+.contactinfo .phone {
+    margin: 0 0 0.75em 0;
+}
+
+.contactinfo .phone span:first-child, .contactinfo .email span:first-child {
+    font-weight: bold;
+}
+
+form fieldset {
+    border: solid 2px #9ed034;
+}
+
+form fieldset legend {
+    color: #4977D1;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 0 0.5em;
+}
+
+form .textbox, form .radios, form .selectmenu, form .commentbox, form .button{
+    margin: 1.5em 0 1.5em 2em;
+}
+
+form label {
+    font-weight: bold;
+}
+
+form .textbox input {
+    margin: 0 0 1em 0;
+    display: block;
+    height: 2em;
+    width: 50%;
+}
+
+form .selectmenu select {
+    width: 12em;
+    padding-left: 3em;
+}
+
+form .commentbox textarea {
+    display: block;
+    height: 17em;
+    width: 50%;
+    resize: none;
+}
+
+form .randomcode {
+    width: 51.5%;
+    text-align: right;
+}
+
+form .randomcode input {
+    margin-right: 1em;
+    height: 2em;
+}
+
+form .randomcode #codes {
+    display: inline;
+    padding: 1em;
+    background-color:#c0c0c0;
+}
+
+form .button {
+    width: 49%;
+    text-align: right;
+}
+
+#submit {
+    width: 5em;
+    height: 2em;
+    font-size: 1.2em;
+    font-weight: bold;
+    /*background-color: rgb(73, 119, 209, 0.4);*/
+    color: rgba(255, 255, 255, 0.5);
+    border: none;
+}
+
+/* Footer */
+footer {
+    width: 100%;
+    padding-bottom: 1em;
+    background-color: #ecfab8;
+}
+footer #nondisclaimer .copy {
+    padding: 3.5em 3.5em 3.5em 13em;
+    float: left;
+    font-size: 0.9em;
+}
+footer #nondisclaimer .social {
+    padding: 2.5em;
+    margin-right: 9.25em;
+    float: right;
+}
+footer #disclaimer {
+    clear: both;
+}
+
+footer #disclaimer p {
+    font-size: 0.85em;
+    text-align: center;
+}
+footer #nondisclaimer .social .fa {
+    padding: 15px;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+    margin: 0 4px;
+    border-radius: 50%;
+}
+footer #nondisclaimer .social .fa:hover {
+    opacity: 0.7;
+}
+footer #nondisclaimer .social .fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+    
+footer #nondisclaimer .social .fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+footer #nondisclaimer .social .fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+/* ACTIVATE BELOW WHEN TESTING NAVIGATION AND OTHERS FOR RWD */
+
+/* Media Queries */
+@media (max-width: 992px) {
+    .logo img {
+        position: relative;
+        bottom: 8px;
+    }
+    .main-menu {
+        width: 200px;
+        background-color:rgba(38, 41, 61, 0.7);
+        position: absolute;
+        /* right: 1.7em; */
+        margin-left: 30em;
+      }
+      .main-menu ul li {
+        border-bottom: 1px solid rgba(202, 204, 202, 0.6);
+      }
+      main {
+        padding: 3em 1em 3em 1em;
+        margin: 0;
+      }
+      #home .main-col-content {
+        padding: 25px;
+        min-height: 450px;
+        margin-top: 1em;
+      }
+      .nav-item{
+        background-color: rgba(38, 41, 61, 0.7);
+        height: 80px;
+        text-align: center;
+    }
+    .nav-link{
+        padding:0;
+        height: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    footer #nondisclaimer .copy {
+        padding: 3.5em 0em 3.5em 0em;
+        text-align: center;
+        float: none;
+        font-size: 0.9em;
+      }
+      footer #nondisclaimer .social {
+        padding: 2.5em 0;
+        margin: 0;
+        text-align: center;
+        float: none;
+      }
+      .main-menu{
+          margin-left: 50vw;
+      }
+}
+
+@media (max-width: 400px){
+    .main-menu{
+        margin-left: 5em;
+    }
+}
+
+
+.navbar-custom {
+    background-color: rgba(38, 41, 61, 0.7);
+    background-color: transparent;
+}
+
+
